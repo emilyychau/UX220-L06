@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url><loc>https://example.com/border.html</loc></url>
 	<url><loc>https://example.com/q3.html</loc></url>
 	<url><loc>https://example.com/q2.html</loc></url>
 	<url><loc>https://example.com/q1.html</loc></url>
