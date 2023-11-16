@@ -8,7 +8,7 @@
         // put your custom element here
         class Year extends HTMLElement{
             connectedCallback(){
-            this.innerHTML = "2023"
+            this.innerHTML = new Date().getFullYear();
             }
         }
 
