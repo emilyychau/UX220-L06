@@ -3,17 +3,17 @@
     <head>
         <title>Custom HTML Element</title>
         <script>
-            class Year extends HTMLElement{
+            class ThisYear extends HTMLElement{
                 connectedCallback(){
                 this.innerHTML = "The year is 2023"
             }
         }
 
-        customElements.define("x-year", Year);
+        customElements.define("x-thisyear", ThisYear);
         </script>
     </head>
     <body>
         <h1>Custom HTML Element</h1>
-        <x-year></x-year>
+        <x-thisyear></x-thisyear>
     </body>
 </html>
